@@ -58,7 +58,7 @@ import tw.finalproject.warrantyRMA.model.RmaService;
 @SessionAttributes(names = { "memlogin", "mngLogin" })
 public class RmaController {
 	private String from = "EEIT13406@gmail.com";
-	private String to = "EEIT13406@gmail.com";
+
 	private String to1 = "EEIT13406@gmail.com";
 	@Autowired
 	private RmaService rmaService;
@@ -93,40 +93,7 @@ public class RmaController {
 
 	}
 
-		//管理員 確認修改
-//		@GetMapping(path = "/updatewarranty.controller2")
-////		@RequestMapping(value = "/updatewarranty.controller2" , method = RequestMethod.POST )
-//		public String updatewarranty2(@RequestParam("warrantyInfoId")Integer warrantyInfoId,
-//				@RequestParam("registerStart") Date registerStart,
-//				@RequestParam("registerFinish") Date registerFinish,
-//				@RequestParam("registerStatus") Integer registerStatus ,
-//				@RequestParam("fk_productId") Integer fk_productId, 
-//				@RequestParam("fk_memberid") Integer fk_memberid,
-//				@RequestParam("pekoinvoice") String img,
-//				@RequestParam("pekoid") String registerid,
-//				Model m){
-////			System.out.println("pekoimgpekoimg=" + img);
-//			WarrantyBean warranty = new WarrantyBean() ;
-//			warranty.setWarrantyInfoId(warrantyInfoId);
-//			warranty.setRegisterStatus(registerStatus);
-//			warranty.setFk_productId(fk_productId); //多跳轉一層去做改動
-//			warranty.setFk_memberId(fk_memberid);//多跳轉一層去做改動
-//			warranty.setRegisterStart(registerStart);
-//			warranty.setRegisterFinish(registerFinish);
-//			warranty.setInvoice(img);
-//			warranty.setregisterid(registerid);
-//			warrantyService.updatewarranty(warranty);
-//			System.out.println(warranty);
-//			return "forward:/Warrantyfindall2.controller";
-//			
-//		}
-//
-//
-//	
-//
-//				
-//			//////////////////會員
-//				
+
 //				// findALL 會員RMA入口
 				@GetMapping(path = "/RMAfindMember.controller")
 				public String WarrantyfindMember2(Model m) {
