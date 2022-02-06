@@ -58,7 +58,7 @@ import tw.finalproject.warrantyRMA.model.RmaService;
 @SessionAttributes(names = { "memlogin", "mngLogin" })
 public class RmaController {
 	private String from = "EEIT13406@gmail.com";
-
+	private String to = "EEIT13406@gmail.com";
 	private String to1 = "EEIT13406@gmail.com";
 	@Autowired
 	private RmaService rmaService;
