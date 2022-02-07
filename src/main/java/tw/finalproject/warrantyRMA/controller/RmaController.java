@@ -52,7 +52,7 @@ import tw.finalproject.warranty.model.WarrantyBean;
 import tw.finalproject.warranty.model.WarrantyService;
 import tw.finalproject.warrantyRMA.model.RmaBean;
 import tw.finalproject.warrantyRMA.model.RmaService;
-
+/A
 @Controller
 //@ResponseBody
 @SessionAttributes(names = { "memlogin", "mngLogin" })
