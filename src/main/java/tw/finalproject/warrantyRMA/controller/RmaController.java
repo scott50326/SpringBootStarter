@@ -15,7 +15,7 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
 import java.util.UUID;
-
+   
 import javax.mail.MessagingException;
 import javax.mail.internet.MimeMessage;
 import javax.servlet.http.HttpSession;
@@ -58,7 +58,7 @@ import tw.finalproject.warrantyRMA.model.RmaService;
 @SessionAttributes(names = { "memlogin", "mngLogin" })
 public class RmaController {
 	private String from = "EEIT13406@gmail.com";
-u	private String to = "EEIT13406@gmail.com";
+	private String to = "EEIT13406@gmail.com";
 	private String to1 = "EEIT13406@gmail.com";
 	@Autowired
 	private RmaService rmaService;
